@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+  .skew_order_textNumber{
+    transform: skew(0);
+  }
+  
+  .skew_order_submitNumber{
+    transform: skew(0);
+  }
+  .order_textNumber{
+    transform: skew(0);
+  }
+  
+  
+  .order_submitNumber{
+    transform: skew(0);
+  }
+}

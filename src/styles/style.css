@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+}
+
+.form{
+	width: 680px;
+}
+
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form_order{
+	display: flex;
+	max-width: 680px;
+}
+
+.skew_order_textNumber{
+	transform: skew(-45deg);
+	background: #dadad8;
+	width: 60%;
+	border:1px solid #f0f2f1;
+}
+
+.skew_order_submitNumber{
+	transform: skew(-45deg);
+	background: #fe0000;
+	width: 40%;
+	border:1px solid #fdc1b9;
+	text-align: center;
+}
+
+
+
+.order_textNumber, .order_submitNumber{
+	padding: 14px 0;
+	font-size: 20px;
+}
+
+.order_textNumber{
+	background: #dadad8;
+	transform: skew(45deg);
+	margin: 0 30px;
+	color: #7f7f7f;
+}
+
+
+.order_submitNumber{
+	width: 81%;
+	background: #fe0000;
+	text-transform: uppercase;
+	color: #faf3fb;
+	transform: skew(45deg);
+	
+}
+
+.error{
+	outline: 1px solid red;
+}
